@@ -7,6 +7,7 @@ const app = express();
 app.use(express.json());
 morganBody(app);
 app.use(cors())
+app.use(express.static('dist'))
 
 let persons = [
   {
