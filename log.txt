@@ -1,0 +1,41 @@
+
+> phonebook-backend@1.0.0 dev
+> nodemon index.js
+
+[33m[nodemon] 3.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+connecting to mongodb+srv://incineratednewt:XiX2ilz9GSUjg7p@cluster0.pigniqi.mongodb.net/phonebook?retryWrites=true&w=majority
+Server running on 3001
+connected to MongoDB
+
+[96mRequest: [93mGET [97m/api/persons [90mat [37mMon Dec 18 2023 09:29:20 GMT+1300, [90mIP: [37m::1[0m, [90mUser Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"name": "Anna",[0m
+[97m		"number": "123",[0m
+[97m		"id": "657b8473f8677528368d827c"[0m
+[97m	},[0m
+[97m	{[0m
+[97m		"name": "Clinton",[0m
+[97m		"number": "027-2011-575",[0m
+[97m		"id": "657bb0bd1e20a58dfde609d4"[0m
+[97m	},[0m
+[97m	{[0m
+[97m		"name": "Clinton2",[0m
+[97m		"number": "027-2011-575",[0m
+[97m		"id": "657bb10ecd50af9324fbbe2d"[0m
+[97m	}[0m
+[97m][0m
+[96mResponse: [36m304 [37m82.808 ms 
+
+[96mRequest: [93mGET [97m/favicon.ico [90mat [37mMon Dec 18 2023 09:29:20 GMT+1300, [90mIP: [37m::1[0m, [90mUser Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": "unknown endpoint"[0m
+[97m}[0m
+[96mResponse: [33m404 [37m1.679 ms 
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
